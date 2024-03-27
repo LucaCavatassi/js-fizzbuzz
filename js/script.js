@@ -1,14 +1,25 @@
-for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz");
-    }else if (i % 3 === 0){
-        console.log("Fizz");
-    }else if (i % 5 === 0){
-        console.log("Buzz");
-    }else
-    console.log(i);
 
-    const numberElem = `<div class="box"><span class="number">${i}</span></div>`
-    document.querySelector(".row").innerHTML += numberElem
-    
+for (let i = 1; i <= 100; i++) {
+    let text;
+    let bgclass;
+    if(i % 3 === 0 && i % 5 === 0){
+        text = "Fizz Buzz";
+        bgclass = "fizz-buzz"
+    }else if(i % 3 === 0){
+        text = "Fizz";
+        bgclass = "fizz"
+    }else if (i % 5 === 0){
+        text = "Buzz";
+        bgclass = "buzz"
+    }else{
+        text = i
+    }
+    console.log(i, text);
+    // PRINT-BOX
+    let innerdiv = document.createElement("div")
+    innerdiv.classList.add("box")
+    innerdiv.classList.add(`${bgclass}`)
+    document.querySelector(".row").append(innerdiv)
+    innerdiv.innerHTML = `<span class="number">${text}</span>`
+    // COLOR-CHANGE
 }

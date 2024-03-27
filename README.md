@@ -11,5 +11,5 @@
 - [X] Checkiamo in console.log
 
 **Milestone 2**
-- [ ] Creaiamo struttura nel DOM per stampare i numeri
-- [ ] Cambiamo il colore di background in base a che sia Fizz, Buzz, o FizzBuzz
+- [X] Creaiamo struttura nel DOM per stampare i numeri
+- [X] Cambiamo il colore di background in base a che sia Fizz, Buzz, o FizzBuzz

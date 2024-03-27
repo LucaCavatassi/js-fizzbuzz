@@ -21,7 +21,6 @@ main h1{
 
 /* BOX-CONTAINER */
 .container {
-    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
 }
@@ -36,17 +35,28 @@ main h1{
 
 /* BOXES */
 .box {
-    height: 63px;
-    width: 63px;
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
     background-color: white;
+    text-align: center;
+    border-radius: 50%;
 }
 
+.fizz {
+    background-color: aqua;
+} 
+.buzz {
+    background-color: coral;
+}
+
+.fizz-buzz {
+    background-color: cornflowerblue;
+}
 /* BOXES-INNER */
 .number {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    padding: 2px;
 }
