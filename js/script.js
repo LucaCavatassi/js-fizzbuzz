@@ -7,4 +7,8 @@ for (let i = 1; i <= 100; i++) {
         console.log("Buzz");
     }else
     console.log(i);
+
+    const numberElem = `<div class="box"><span class="number">${i}</span></div>`
+    document.querySelector(".row").innerHTML += numberElem
+    
 }

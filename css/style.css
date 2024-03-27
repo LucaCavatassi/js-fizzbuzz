@@ -1,0 +1,52 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: limegreen;
+}
+
+/* MAIN */
+main h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3rem;
+}
+
+/* BOX-CONTAINER */
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* BOXES */
+.box {
+    height: 63px;
+    width: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    background-color: white;
+}
+
+/* BOXES-INNER */
+.number {
+    font-size: 2rem;
+}
