@@ -23,6 +23,8 @@ main h1{
 .container {
     width: 80%;
     margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 /* ROW */
@@ -48,6 +50,7 @@ main h1{
 .fizz {
     background-color: aqua;
 } 
+
 .buzz {
     background-color: coral;
 }
@@ -55,6 +58,7 @@ main h1{
 .fizz-buzz {
     background-color: cornflowerblue;
 }
+
 /* BOXES-INNER */
 .number {
     font-size: 1.4rem;
