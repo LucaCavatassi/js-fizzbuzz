@@ -13,6 +13,7 @@ for (let i = 1; i <= 100; i++) {
         bgclass = "buzz"
     }else{
         text = i
+        bgclass = "none"
     }
     console.log(i, text);
     // PRINT-BOX
@@ -21,5 +22,6 @@ for (let i = 1; i <= 100; i++) {
     innerdiv.classList.add(`${bgclass}`)
     document.querySelector(".row").append(innerdiv)
     innerdiv.innerHTML = `<span class="number">${text}</span>`
+    console.log(innerdiv);
     // COLOR-CHANGE
 }

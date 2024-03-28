@@ -42,9 +42,12 @@ main h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     text-align: center;
     border-radius: 50%;
+}
+
+.none{
+background-color: white;
 }
 
 .fizz {
